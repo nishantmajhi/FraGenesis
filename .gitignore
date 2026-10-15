@@ -1,0 +1,3 @@
+db/questions.sqlite3
+seed/data/*.json
+tests/original/db/

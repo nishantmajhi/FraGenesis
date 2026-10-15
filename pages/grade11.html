@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coming Soon | FraGenesis</title>
+
+    <link rel="stylesheet" href="../assets/css/colors.css" />
+    <link rel="stylesheet" href="../assets/css/breadcrumbs.css" />
+    <style>
+      :root {
+        --linear-gradient-for-animation: linear-gradient(
+          45deg,
+          forestgreen,
+          darkgreen,
+          limegreen,
+          darkgreen,
+          forestgreen
+        );
+      }
+
+      html {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      header {
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+      }
+
+      header button {
+        border: none;
+        padding: 0.25rem 0.5rem;
+        font-size: 2rem;
+        font-family: "Times New Roman", Times, serif;
+        cursor: pointer;
+        background-color: transparent;
+      }
+
+      main {
+        height: calc(100dvh - 2 * (1rem + 0.5rem + 2rem));
+        position: relative;
+      }
+
+      .hero-text {
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, calc(-50% - 5rem / 2));
+        text-align: center;
+        font-size: 5rem;
+        color: transparent;
+        background-clip: text;
+        background-size: 180% auto;
+        background-image: var(--linear-gradient-for-animation);
+        animation: linear_gradient_animation 20s alternate infinite;
+      }
+
+      @keyframes linear_gradient_animation {
+        0% {
+          background-position: left;
+        }
+
+        100% {
+          background-position: right;
+        }
+      }
+    </style>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const subjectButton = document.getElementById("subject");
+        subjectButton.title = `Home "${window.location.origin}"`;
+        subjectButton.addEventListener("click", function () {
+          window.location.href = window.location.origin;
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <button type="button" id="subject">+2 Computer Science</button>
+    </header>
+
+    <nav>
+      <span>Grade XI</span>
+      <span>Question Paper</span>
+    </nav>
+
+    <main>
+      <h1 class="hero-text">Coming Soon!</h1>
+    </main>
+  </body>
+</html>

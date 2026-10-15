@@ -1,0 +1,190 @@
+TITLE: DATABASE MANAGEMENT SYSTEM (DBMS)
+
+TOPICS:
+1.1 Data, Database & DBMS Introduction
+1.2 Field, Record, Objects & Keys
+1.3 DBMS Advantages
+1.4 DDL & DML
+1.5 Database Models
+1.6 Normalization (1NF, 2NF, 3NF)
+1.7 Centralized vs. Distributed Database
+1.8 Database Security
+
+[MCQ 1]
+Q1 [1.4]: Which of the following is a DML statement?
+  a. Create
+  b. Select
+  c. Create view Alter
+  d. Drop
+
+Q2 [1.1]: Which function is used to connect to a MySQL database?
+  a. mySqLi_open()
+  b. mySqLi_connect()
+  c. var mySqLi_query()
+  d. $mySqLi_con()
+
+Q3 [1.4]: Which statement is used to delete a table in SQL?
+  a. REMOVE
+  b. DROP
+  c. Alter
+  d. Rename
+
+Q4 [1.4]: With SQL, how do you select all the records from a table named "NEB" where the value of the column "department" is "CDC"?
+  a. Select from NEB where department is exactly CDC;
+  b. Select *from NEB where department is equal to 'CDC';
+  c. Select * from NEB where department='CDC';
+  d. Select from NEB where department is not in CDC;
+
+Q5 [1.2]: Which key is an attribute of a table that matches a primary key attribute in another table to create a relationship?
+  a. Candidate
+  b. Primary
+  c. Foreign
+  d. National
+
+Q6 [1.8]: What is it called when a user is identified via a username and password in DBMS?
+  a. Authentication
+  b. Authorization
+  c. Accounting
+  d. Auditing
+
+Q7 [1.4]: Which of the following SQL statements is used to DELETE rows from a database table?
+  a. DELETE
+  b. REMOVE
+  c. DROP
+  d. CLEAR
+
+Q8 [1.2]: A field that is used to uniquely define a particular record in a table is called:
+  a. Primary Key
+  b. Entity
+  c. Relationship
+  d. Constraints
+
+Q9 [1.5]: ... is not the data type of MS-Access.
+  a. Number
+  b. Test
+  c. Memo
+  d. Form
+
+Q10 [1.1]: ... is the DBMS.
+  a. Fox-Pro
+  b. MS Excel
+  c. Lotus-123
+  d. All of the above
+
+Q11 [1.2]: The primary key does not accept.
+  a. Text
+  b. Number
+  c. Null Value
+  d. None of above
+
+Q12 [1.1]: In MS Access, we enter data using ...
+  a. Form
+  b. Table
+  c. Report
+  d. Both a and b
+
+Q13 [1.5]: Date/Time occupies ... bytes of memory.
+  a. 4
+  b. 2
+  c. 2
+  d. 16
+
+[SAQ 5]
+Q1 [1.5]: Explain the Relational Data model with example.
+Q2 [1.4]: Write SQL DDL commands to execute the following task with reference to the schema given below: student_info (regno as integer, name as character (25), class integer, gender character (1), address character (25)).
+Q3 [1.1]: Define a syntax for database connectivity. Write a server side scripting code to insert data into the table student having fields (first name, last name, mark and email). Assume that server name = "localhost", username = "root", password = " ", database name = "student DB".
+Q4 [1.5]: Explain relational database model.
+Q5 [1.4]: Demonstrate any two DDL statements with an example.
+Q6 [1.1]: What are the roles of the database administrator? Describe.
+Q7 [1.4]: Describe the DDL statement with an example in SQL.
+Q8 [1.7]: Differentiate the centralized and distributed database system.
+Q9 [1.6]: What are the purposes of normalization? Give an example of 2NF.
+Q10 [1.5]: Explain the different database model with suitable examples.
+Q11 [1.2]: Explain entity, attribute and relationship in Relational Database Management System.
+Q12 [1.1]: Explain the role of Database Administrator (DBA).
+Q13 [1.6]: Describe 1NF, 2NF and 3NF normalization concept to database design.
+Q14 [1.6]: What are the importance of normalization in DBMS? Explain.
+Q15 [1.2]: Explain E-R diagrams in DBMS.
+Q16 [1.6]: Describe the normalization in DBMS.
+Q17 [1.1]: What are the major functions of DBA? Explain.
+Q18 [1.7]: Differentiate between centralized and distributed database.
+Q19 [1.8]: Explain the different types of data integrity in DBMS.
+Q20 [1.4]: What is SQL? Describe the DML with an example.
+Q21 [1.5]: What is database model? Explain relational model.
+Q22 [1.3]: Explain the advantages of Database Management System.
+Q23 [1.7]: Explain the benefits of decentralized database models.
+Q24 [1.5]: What is Relational Database Management System?
+Q25 [1.4]: Explain DML and DDL.
+Q26 [1.8]: Explain the data integrity with example.
+Q27 [1.6]: Describe the normalization in database.
+Q28 [1.1]: What are the roles of DBA? Explain.
+Q29 [1.6]: What are 1NF and 2NF normalization principles in database? Explain.
+Q30 [1.8]: What is data security? Explain.
+Q31 [1.6]: What is normalization? Explain first and second normal form with example.
+Q32 [1.8]: What is DBMS? Explain data integrity with suitable example.
+Q33 [1.4]: Define DML and DDL with example.
+Q34 [1.7]: What is DBMS? Differentiate between centralized and distributed database.
+Q35 [1.5]: Explain relational database model.
+Q36 [1.1]: Define DBMS. List out the objectives of DBMS.
+Q37 [1.5]: What is relational database model? List the advantages and disadvantages of relational database model.
+Q38 [1.4]: Describe the terms 'SQL' and 'DML'.
+Q39 [1.5]: Describe two database models with diagram.
+Q40 [1.6]: What is normalization? Write the advantages of normalization.
+Q41 [1.2]: What is E-R diagram? Explain the advantages of E-R diagram in system design.
+Q42 [1.5]: What are the advantages of RDBMS?
+Q43 [1.1]: Who is database administrator? List the roles of database administrator.
+Q44 [1.1]: What is database? List out the advantages of Database Management System.
+Q45 [1.7]: Describe the centralized and distributed database systems.
+Q46 [1.5]: What is RDBMS? List out the functions of RDBMS.
+Q47 [1.5]: Explain the database models with clear diagrams.
+Q48 [1.1]: What is DBMS? List out the functions of DBMS.
+Q49 [1.5]: What is Hierarchical database model? List out the advantages and disadvantages of Hierarchical database model.
+Q50 [1.7]: Explain the centralized and distributed database models.
+Q51 [1.1]: Differentiate between DBMS and RDBMS with examples.
+Q52 [1.1]: What is database? List the major uses of database application software.
+Q53 [1.5]: Explain the database model with suitable examples.
+Q54 [1.5]: Define the term RDBMS. State the guiding principles used in database design.
+Q55 [1.8]: What is integrity? State and describe different types of data integrity.
+Q56 [1.6]: What is normalization? How is it used in data analysis? Explain.
+Q57 [1.8]: What do you understand by the term data integrity? Why is it important in designing a database?
+Q58 [1.7]: Explain the benefits of centralized database.
+Q59 [1.6]: What is normalization? Explain the normalization process with examples.
+Q60 [1.8]: What do you understand by the term data integrity? Why is it an important thing to be considered while designing a database? Explain.
+Q61 [1.2]: What is the purpose of E-R diagram? List out the different symbols used in E-R diagram with their meanings and examples.
+Q62 [1.1]: Define database and DBMS. Explain the advantages of Database system over flat-file system.
+Q63 [1.7]: What are the advantages of distributed database system over centralized database system?
+Q64 [1.5]: What is data model? Explain about different data modeling techniques.
+Q65 [1.8]: What is data security? How can it be implemented?
+Q66 [1.1]: Differentiate between database and database management system. Explain the top down methodology of database design.
+Q67 [1.1]: Explain the benefits of centralized database. What are the major responsibilities of a Database Administrator? Explain in detail.
+Q68 [1.8]: What do you mean by data security? Explain briefly the type of security methods normally adopted in a computerized environment.
+Q69 [1.1]: Define database administrator. Explain the duties and responsibilities of a database administrator.
+Q70 [1.1]: What is database administrator? Explain the benefits of centralized database system.
+Q71 [1.1]: Give two advantages of using a database rather than a number of separate files. What are the major responsibilities of a database administrator?
+Q72 [1.6]: Why is normalization needed? Explain normalization process with examples.
+Q73 [1.1]: Differentiate between Database and DBMS. Explain the top down methodology of Database design.
+Q74 [1.1]: Explain the benefits of Centralized Database. What are the major responsibilities of a Database Administrator? What are the objectives of system analysis?
+Q75 [1.5]: Name the different models of DBMS. Write short notes on any three of the following: (a) SQL (b) Data Dictionary (c) ERD (d) DDL
+Q76 [1.5]: What are Domains and Tuples? What are the characteristics of a good data model?
+Q77 [1.6]: What is prototyping? Write short notes on any two of the following: (a) Normalization of data (b) Data security (c) RDBMS
+Q78 [1.1]: What is the role of Database Administrator? What are the duties and responsibilities of a System Analyst?
+
+[LAQ 8]
+Q1 [1.6]: Define normalization. Explain 2NF and 3NF with example.
+Q2 [1.6]: What is normalization? Write its advantages. Explain second and third normal form with example.
+Q3 [1.6]: What is normalization? Explain first, second and third normal form with example.
+Q4 [1.6]: What is the purpose of normalization? Explain second and third normal form with example.
+Q5 [1.8]: What do you understand by the term data integrity? Why is it an important thing to be considered while designing a database? State and describe different types of data integrity.
+Q6 [1.8]: What do you understand by the term data integrity? Why is it important to be considered while designing a database? State and describe different types of data integrity.
+Q7 [1.8]: What is data security? How can it be implemented?
+
+[SN 2.5]
+N1 [1.8]: Data Security
+N2 [1.2]: Primary Key
+N3 [1.2]: ER diagram
+N4 [1.1]: DBMS
+N5 [1.6]: Normalization
+N6 [1.1]: Data dictionary
+N7 [1.4]: DML
+N8 [1.3]: Advantages of DBMS
+N9 [1.5]: Data modeling

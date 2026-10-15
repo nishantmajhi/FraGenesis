@@ -1,0 +1,107 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+button {
+  border: none;
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+header > button:first-child {
+  font-size: 2rem;
+  cursor: default;
+  font-family: "Times New Roman", Times, serif;
+}
+header > button:first-child:focus,
+header > button:first-child:hover {
+  color: white;
+}
+
+header span:has(a) {
+  display: flex;
+  align-items: center;
+}
+
+header span a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: white;
+}
+
+form {
+  padding-block: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (orientation: landscape) {
+  form label {
+    display: flex;
+    align-items: flex-end;
+    gap: 1ch;
+  }
+
+  form label span:first-child::after {
+    content: " - ";
+  }
+}
+@media (orientation: portrait) {
+  form label {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+main {
+  border-radius: 0.25rem;
+  padding: 4rem;
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+}
+
+main h1 {
+  margin-block: 0 0.5rem;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+}
+main section:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+input[type="submit"] {
+  margin: 1.5rem;
+  border-radius: calc(2 * 0.75rem + 1rem);
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  color: white;
+  background-color: var(--dark-green);
+  transition: border 0.4s, background-color 0.4s, transform 0.4s;
+}
+input[type="submit"]:focus,
+input[type="submit"]:hover {
+  border-color: var(--primary-color);
+  background-color: var(--primary-color);
+}
+input[type="submit"]:active {
+  transform: scale(92%);
+}

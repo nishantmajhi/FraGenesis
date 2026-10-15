@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <title>About | FraGenesis</title>
+
+    <link rel="stylesheet" href="../assets/css/colors.css" />
+    <link rel="stylesheet" href="../assets/css/about.css" />
+  </head>
+  <body>
+    <header>
+      <button type="button">+2 Computer Science</button>
+    </header>
+    <main>Personal project as a CS teacher.</main>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const subjectButton = document.querySelector("button");
+        subjectButton.title = `Home "${window.location.origin}"`;
+
+        subjectButton.addEventListener("click", function () {
+          window.location.href = window.location.origin;
+        });
+      });
+    </script>
+  </body>
+</html>

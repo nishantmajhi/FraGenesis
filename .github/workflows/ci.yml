@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          # OriginalTest resolves the baseline commit with git; without
+          # history it skips, which would hide a drifted transcription.
+          fetch-depth: 0
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.4"
+          extensions: mbstring, pdo_sqlite
+          coverage: none
+      # Builds db/questions.sqlite3, which is gitignored, from seed/data.
+      # Without it the tests that exercise real generated papers skip.
+      - run: php index.php
+        working-directory: seed
+      - run: php tests/run.php

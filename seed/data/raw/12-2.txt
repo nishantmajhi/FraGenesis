@@ -1,0 +1,157 @@
+TITLE: DATA COMMUNICATION AND NETWORKING
+
+TOPICS:
+2.1 Communication System Basics
+2.2 Communication System Concept
+2.3 Communication System Model
+2.4 Data Transmission Elements
+2.5 Communication Modes
+2.6 LAN & WAN Concepts
+2.7 Transmission Media (Guided & Unguided)
+2.8 Transmission Impairments
+2.9 Network Architecture Types
+2.10 Network Terms (IP, Subnet, Gateway, MAC)
+2.11 Network Tools
+2.12 Network Connecting Devices
+2.13 Network Topologies
+2.14 OSI Reference Model
+2.15 Internet Protocol Addressing
+
+[MCQ 1]
+Q1 [2.2]: A collection of hyperlinked documents on Internet is called
+  a. HTML
+  b. webpage
+  c. www
+  d. email system
+
+Q2 [2.15]: Which of the following IPv4 address is valid?
+  a. 192.168.1.1
+  b. 257.2.5.1
+  c. EEE.000.33.000
+  d. 202.70.71.262
+
+Q3 [2.7]: Coaxial cable is an example of ...
+  a. Communication software
+  b. Guided Transmission media
+  c. Unguided Transmission media
+  d. All of them
+
+Q4 [2.13]: In which topology is each computer connected with other two computers in circular form?
+  a. Star
+  b. Bus
+  c. Ring
+  d. Hybrid
+
+Q5 [2.15]: Which is the default subnet mask for the class C IP address?
+  a. 255.0.0.0
+  b. 255.255.255.0
+  c. 255.255.0.0
+  d. 255.255.255.255
+
+Q6 [2.10]: What does 'MAC' stand for in MAC Address?
+  a. Mandatory Access Control
+  b. Media Access Control
+  c. Micro Access Control
+  d. Media Access Certificate
+
+Q7 [2.1]: ... refers to the sending, receiving, and processing of information by electronic means.
+  a. computer
+  b. communication
+  c. software
+  d. Program
+
+Q8 [2.7]: Which refers to the communication media?
+  a. UTP cable
+  b. Fiber optic cable
+  c. Satellite
+  d. All of the above
+
+Q9 [2.13]: Which one is not a network topology?
+  a. Star
+  b. Ring
+  c. Client server
+  d. BUS
+
+Q10 [2.7]: Which is not a guided media?
+  a. UTP Cable
+  b. STP Cable
+  c. Satellite
+  d. Fiber Optic
+
+Q11 [2.12]: Which device is necessary to operate the Internet?
+  a. CD-ROM
+  b. ISP
+  c. Modem
+  d. All of the above
+
+[SAQ 5]
+Q1 [2.15]: Describe the class C IP address with an example.
+Q2 [2.13]: Compare the star and ring topology with its features.
+Q3 [2.7]: Explain about coaxial cable and fiber optics cable.
+Q4 [2.13]: Compare the star and ring topology.
+Q5 [2.6]: What is network? List out hardware equipments to establish the computer network.
+Q6 [2.6]: Differentiate between LAN and WAN.
+Q7 [2.7]: Describe the different types of communication media in the Networking.
+Q8 [2.13]: Define network topology. Explain the Ring Topology.
+Q9 [2.7]: Describe the wireless network system. List out devices and equipments necessary for Wi-Fi network.
+Q10 [2.13]: What is topology? Explain Ring topology.
+Q11 [2.7]: Differentiate between bounded and unbounded transmission media.
+Q12 [2.9]: Differentiate between peer-to-peer and client/server network.
+Q13 [2.7]: What is transmission media? Write advantages of optical fiber cable.
+Q14 [2.7]: What is transmission media? Explain any two different types of transmission media.
+Q15 [2.12]: What are the functions of router and switch?
+Q16 [2.13]: Describe the Star topology with suitable diagram.
+Q17 [2.7]: What is optical fiber cable in networking system?
+Q18 [2.7]: Explain Unshielded Twisted Pair (UTP) cable and Coaxial cable.
+Q19 [2.9]: Explain peer-to-peer and client/server network.
+Q20 [2.13]: Describe the Bus and Star topology with suitable diagram.
+Q21 [2.7]: Differentiate between guided and unguided networking media.
+Q22 [2.13]: Explain Bus and Star topology with advantages and disadvantages.
+Q23 [2.6]: Define computer network and explain its uses.
+Q24 [2.5]: Describe 'simplex', 'half duplex' and 'full duplex' with example.
+Q25 [2.6]: What is Networking? List the advantages of Networking.
+Q26 [2.13]: Describe Network topologies with diagram.
+Q27 [2.6]: What is computer network? Write the advantages and disadvantages of computer network.
+Q28 [2.6]: What is computer network? Explain its uses.
+Q29 [2.13]: What is Network topology? Describe any two network topologies with clear diagram.
+Q30 [2.7]: Describe the 'Coaxial cable' and 'Satellite' with examples.
+Q31 [2.6]: What is Network? List out the benefits of Networks.
+Q32 [2.6]: Define computer networks and explain their uses.
+Q33 [2.5]: Describe 'Simplex', 'half duplex' and 'full duplex' channel of communications with examples.
+Q34 [2.7]: Explain any transmission media with appropriate diagrams.
+Q35 [2.13]: Describe types of network topologies with clear diagrams.
+Q36 [2.13]: What are the types of LAN topologies? Explain with diagrams.
+Q37 [2.13]: What is local area network? Explain different types of topologies with diagrams.
+Q38 [2.13]: What are the types of LAN topology? Explain with diagram.
+Q39 [2.13]: What is network topology? Explain the different types of network topologies with diagram.
+Q40 [2.9]: Define Network Architecture. Explain client-server and peer-to-peer networking.
+Q41 [2.14]: Explain about OSI/ISO model of networking.
+Q42 [2.7]: What is the purpose of transmission media? Explain its types.
+Q43 [2.13]: What is networking? Distinguish between Star topology and ring topology with the help of a clean diagram.
+Q44 [2.6]: What is networking? Explain the advantages and disadvantages of networking.
+Q45 [2.13]: What are the different types of LAN topology? Explain.
+Q46 [2.13]: What is network topology? What are the different types of LAN topology? Explain.
+Q47 [2.7]: What do you mean by transmission media? Write short notes on UTP cable and fibre optical cable.
+Q48 [2.9]: What do you mean by topology? Explain any two: (a) Client-Server Network (b) Workstation (c) Protocol
+Q49 [2.13]: What is a local area network? List the different types of topologies with diagrams.
+
+[LAQ 8]
+Q1 [2.13]: What is network topology? Differentiate between guided (wire media) and unguided (wireless media) with example.
+Q2 [2.9]: Explain client-server and peer-to-peer network architecture with diagram.
+Q3 [2.13]: Compare the star and ring topology with pros and cons. Which data communication cable is more appropriate to design the local area network? Describe.
+
+[SN 2.5]
+N1 [2.12]: Router
+N2 [2.15]: IP address
+N3 [2.7]: WiFi
+N4 [2.6]: LAN
+N5 [2.14]: TCP/IP
+N6 [2.7]: Bluetooth
+N7 [2.14]: Network protocols
+N8 [2.7]: Satellite
+N9 [2.14]: Protocol
+N10 [2.7]: Coaxial Cable
+N11 [2.4]: Packet switching
+N12 [2.7]: Fiber-optic Cable
+N13 [2.13]: Bus Topology
+N14 [2.7]: Transmission media

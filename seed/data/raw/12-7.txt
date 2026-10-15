@@ -1,0 +1,105 @@
+TITLE: RECENT TRENDS IN TECHNOLOGY
+
+TOPICS:
+7.1 AI & Robotics
+7.2 Cloud Computing
+7.4 Virtual Reality & E-Learning
+7.5 E-services (E-Commerce, E-Governance, Cyber Security)
+7.6 Mobile Computing
+7.7 Internet of Things (IoT)
+
+[MCQ 1]
+Q1 [7.7]: IoT stands for ...
+  a. International of Technology
+  b. Internet of Things
+  c. Internet of Technology
+  d. International of Things
+
+Q2 [7.2]: Which is NOT a cloud service?
+  a. SaaS
+  b. PaaS
+  c. IaaS
+  d. CaaS
+
+Q3 [7.7]: What devices detect and respond to changes in an environment and are embedded as an integral part of the Internet of Things (IoT)?
+  a. Wi-Fi
+  b. Barcode
+  c. RFID
+  d. Sensors
+
+Q4 [7.1]: ... is the part of computer science concerned with designing intelligent computer systems.
+  a. Hardware
+  b. Computer
+  c. Artificial Intelligence
+  d. None of the above
+
+Q5 [7.1]: ... is the branch of technology that deals with the design, construction, operation, and application of robots.
+  a. Hardware
+  b. Robotics
+  c. Software
+  d. None of the above
+
+Q6 [7.2]: ... is the use of various services, such as software development platforms, servers, storage, and software, over the Internet.
+  a. Hard disk
+  b. Cloud computing
+  c. Pen drive
+  d. None of the above
+
+Q7 [7.2]: SaaS stands for ...
+  a. Software as a service
+  b. System as a service
+  c. Both a and b
+  d. None of the above
+
+Q8 [7.2]: IaaS stands for ...
+  a. Internet as a service
+  b. Infrastructure as a service
+  c. Both a and b
+  d. None of the above
+
+[SAQ 5]
+Q1 [7.2]: What is cloud computing? Point out the advantages and disadvantages of cloud computing.
+Q2 [7.2]: Explain the concept of cloud computing.
+Q3 [7.5]: Write a note on e-governance and e-commerce.
+Q4 [7.1]: Explain the popular five application areas of AI.
+Q5 [7.5]: How can you minimize computer crime? Explain.
+Q6 [7.5]: What is E-commerce? List out the demerits of E-commerce.
+Q7 [7.1]: What is AI? Describe the applications of AI.
+Q8 [7.4]: What are the roles of e-learning in the 21st century? Write the importance of multimedia in e-learning.
+Q9 [7.1]: What are the roles of AI in our real life? List out AI related systems in our society.
+Q10 [7.5]: Explain the terms e-business and e-medicine.
+Q11 [7.5]: Define the terms e-business and e-learning.
+Q12 [7.1]: Explain Artificial Intelligence.
+Q13 [7.5]: What are the advantages and disadvantages of social media? List out.
+Q14 [7.5]: What is E-commerce? Point out the advantages of E-commerce.
+Q15 [7.1]: What is AI? Write the social impact of ICT.
+Q16 [7.5]: Explain cyberlaw.
+Q17 [7.4]: Define the terms e-learning and virtual reality.
+Q18 [7.5]: What is e-governance? List out the objectives of e-governance.
+Q19 [7.1]: Explain the application areas of AI.
+Q20 [7.1]: What is AI? What are the uses of AI?
+Q21 [7.5]: What is e-governance? List the importance of e-governance.
+Q22 [7.1]: Explain the application areas of AI.
+Q23 [7.5]: Describe the objectives of e-governance.
+Q24 [7.1]: What is AI? Explain the application areas of AI.
+Q25 [7.5]: List the advantages and disadvantages of e-business.
+Q26 [7.5]: What are the objectives of e-governance? Explain.
+Q27 [7.5]: What are the key challenges of implementing e-governance in developing countries?
+Q28 [7.1]: What do you understand by AI? How does it affect modern society?
+Q29 [7.2]: What is cloud computing? Explain its role in enhancing the digital economy.
+Q30 [7.1]: What do you understand by AI? How does it affect society? Explain the terms polymorphism and inheritance in terms of OOP.
+Q31 [7.5]: What is e-commerce? Write the impact of e-commerce technology in our society.
+Q32 [7.5]: What do you mean by 'e-commerce'? Distinguish between WWW (World Wide Web) and the Internet? What is multimedia? What are the hardware devices required by a personal computer to make it 'multimedia capable'?
+Q33 [7.1]: How does an AI application work? Can a computer really think with the aid of AI?
+
+[LAQ 8]
+Q1 [7.2]: What is cloud computing? Explain the types of cloud services (SaaS, PaaS, IaaS) with examples.
+Q2 [7.1]: What is Artificial Intelligence? Explain the major application areas of AI with suitable examples.
+Q3 [7.5]: What is e-commerce? Explain the advantages and disadvantages of e-commerce. Write the impact of e-commerce on society.
+
+[SN 2.5]
+N1 [7.1]: Use of AI
+N2 [7.1]: Application of AI
+N3 [7.5]: Social Media
+N4 [7.4]: E-learning
+N5 [7.5]: E-commerce

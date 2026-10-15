@@ -1,0 +1,138 @@
+TITLE: SOFTWARE PROCESS MODEL
+
+TOPICS:
+6.1 Software Project Concepts
+6.3 SDLC Lifecycle
+6.4 System Analyst vs. Software Engineer
+6.5 Requirement Collection Methods
+6.6 System Design Concepts
+6.7 Software Quality & Testing
+6.8 Development Models (Waterfall, Agile, RAD, Prototype)
+
+[MCQ 1]
+Q1 [6.7]: Which SDLC phase is used to ensure quality software?
+  a. implementation
+  b. maintenance
+  c. testing
+  d. system study
+
+Q2 [6.3]: In which phase of SDLC is software code written?
+  a. Analysis
+  b. Design
+  c. Development
+  d. Maintenance
+
+Q3 [6.8]: What software development approach should a company use if they want to consider the input of users in the development process?
+  a. RAD
+  b. Agile
+  c. Waterfall
+  d. Prototype
+
+Q4 [6.5]: Which of the following is the process of discovering requirements from a user in the requirement collection process?
+  a. Feasibility study
+  b. Requirement Elicitation
+  c. Requirement Specification
+  d. Requirement Validation
+
+Q5 [6.1]: A set of programs written for a computer to perform a particular task is called ...
+  a. hardware
+  b. software
+  c. Both a and b
+  d. None of the above
+
+Q6 [6.3]: ... defines a sequence of tasks that must be carried out to build new software.
+  a. computer
+  b. Hardware
+  c. Software development process
+  d. None of the above
+
+Q7 [6.3]: SDLC stands for ...
+  a. Scheme Development Life Cycle
+  b. Software/System Development Life Cycle
+  c. Software/System Design Life Cycle
+  d. Scheme Design Life Cycle
+
+Q8 [6.5]: ... is also called a Preliminary Investigation or Need Analysis Phase.
+  a. System design
+  b. System study
+  c. System development
+  d. System testing
+
+Q9 [6.5]: ... is to determine whether the whole process of system analysis leading to computerization would be worthwhile for the organization or not.
+  a. Feasibility study
+  b. System design
+  c. System development
+  d. Testing
+
+[SAQ 5]
+Q1 [6.7]: Explain the importance of system testing in the system development life cycle (SDLC).
+Q2 [6.5]: Explain the requirement analysis phase of SDLC.
+Q3 [6.8]: Describe the waterfall software development model with pros and cons.
+Q4 [6.6]: What are the major activities performed to design the software? Describe.
+Q5 [6.5]: What is feasibility study? Explain.
+Q6 [6.4]: Describe the desirable characteristics of a system analyst.
+Q7 [6.4]: What are the roles of a system analyst in the SDLC phase?
+Q8 [6.3]: What are the phases of SDLC in the software development process?
+Q9 [6.5]: Define SDLC. Describe the feasibility analysis methods.
+Q10 [6.5]: Explain the system analysis phase of SDLC.
+Q11 [6.6]: Define the terms DFD and E-R diagram.
+Q12 [6.4]: Who is a system analyst? Explain the role of system analyst.
+Q13 [6.3]: List the stages of system development life cycle and explain any two stages of them.
+Q14 [6.4]: Describe the major role and responsibility of system analyst in the SDLC phase.
+Q15 [6.6]: What is E-R diagram? Write the meaning of graphical symbols used in E-R diagram.
+Q16 [6.5]: List the steps of SDLC. Explain the system Analysis Phase.
+Q17 [6.8]: Describe the waterfall model to explain the SDLC.
+Q18 [6.3]: What are the software development process phases in SDLC? Explain any one phase.
+Q19 [6.3]: Explain the system development phase.
+Q20 [6.8]: What are the major activities in SDLC based on the waterfall model?
+Q21 [6.3]: Write the importance and necessity of SDLC.
+Q22 [6.3]: Describe SDLC with diagram.
+Q23 [6.5]: Describe the components of feasibility study.
+Q24 [6.4]: Who is a system analyst? List out the characteristics of a system analyst.
+Q25 [6.3]: Describe system flowchart with diagram.
+Q26 [6.5]: What is feasibility study? Explain different levels of feasibility study.
+Q27 [6.3]: Explain the importance of SDLC.
+Q28 [6.5]: What is feasibility study? Why is it necessary before designing a system?
+Q29 [6.1]: What is system? Explain the fields of expert system.
+Q30 [6.5]: What is system analysis and design? Describe briefly.
+Q31 [6.5]: Describe different levels of feasibility study.
+Q32 [6.4]: Who is a system analyst? List out the roles of system analyst.
+Q33 [6.3]: Explain SDLC with appropriate diagram.
+Q34 [6.1]: What is system? Explain the basic elements of system.
+Q35 [6.3]: Explain different stages of system development life cycle with clear figure.
+Q36 [6.5]: What is feasibility study? Why is feasibility study important in system analysis phase? Explain.
+Q37 [6.4]: Who is a system analyst? Highlight the characteristics of a good analyst.
+Q38 [6.6]: What are the documentation techniques? Explain with an example.
+Q39 [6.6]: Define program logic. Explain different types of program logic tools.
+Q40 [6.5]: What is system analysis? What are the major objectives of system analysis? Explain.
+Q41 [6.4]: What is system analyst? Explain the major roles of system analyst.
+Q42 [6.6]: Explain about the system design methodologies.
+Q43 [6.6]: What are the different program logic tools? Explain about the decision table and decision tree with examples.
+Q44 [6.7]: Explain about the different testing techniques during system development.
+Q45 [6.7]: How can you test a newly developed system? Explain different types of testing techniques.
+Q46 [6.6]: Differentiate between decision table and decision tree with example.
+Q47 [6.6]: What is documentation? Explain the importance of documentation in program designing.
+Q48 [6.4]: Who is system analyst? Explain the different stages of system development life cycle.
+Q49 [6.5]: What is system analysis? Explain the different steps of system development life cycle.
+Q50 [6.6]: What are the different symbols used to construct a flow chart? Give a brief explanation along with a neat diagram.
+Q51 [6.6]: What is program logic? Explain the different types of program logic design tools.
+Q52 [6.5]: Define feasibility study. Why is feasibility study important in the system development process? Explain.
+Q53 [6.6]: What are the documentation techniques? Explain any three of them.
+Q54 [6.5]: What do you mean by feasibility study? Why is it necessary before designing a system?
+Q55 [6.6]: What do you mean by program algorithm? Explain the aims of program design and building blocks of structured programming.
+Q56 [6.3]: State the steps involved in system development cycle in chronological order. Explain data security laws.
+Q57 [6.6]: What is the importance of Data Flow Diagrams in SDLC? Explain any two: (a) Physical system (b) C.A.S.E (c) P.I.E.C.E.S (d) Feasibility Study
+Q58 [6.3]: Define the term system. List different stages of system development life cycle. Highlight the importance of the first two stages.
+
+[LAQ 8]
+Q1 [6.3]: Explain the different stages of system development life cycle with clear figures.
+Q2 [6.5]: What is feasibility study? Explain different levels of feasibility study in detail.
+Q3 [6.4]: Who is a system analyst? Explain the major roles and responsibilities of a system analyst in SDLC.
+Q4 [6.8]: Describe the waterfall software development model. Explain each phase with pros and cons.
+Q5 [6.6]: What are the documentation techniques? Explain with examples.
+
+[SN 2.5]
+N1 [6.5]: System Analysis
+N2 [6.1]: Expert System
+N3 [6.1]: Data Security
+N4 [6.5]: Feasibility Study

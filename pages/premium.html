@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <title>Subscribe | FraGenesis</title>
+
+    <link rel="stylesheet" href="../assets/css/colors.css" />
+    <style>
+      html {
+        font-family: Arial, Helvetica, sans-serif, system-ui;
+      }
+      body {
+        margin: 0;
+      }
+
+      main,
+      figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      main {
+        margin: 1rem;
+        height: 90dvh;
+        gap: 1.2rem;
+      }
+
+      @media (orientation: landscape) {
+        img {
+          height: 25dvh;
+        }
+      }
+      @media (orientation: portrait) {
+        img {
+          width: 40dvw;
+        }
+      }
+
+      figcaption,
+      p {
+        text-align: center;
+      }
+
+      figcaption {
+        font-size: 2.4rem;
+        color: #003838;
+      }
+
+      p {
+        font-size: 1.2rem;
+        color: #003838;
+      }
+
+      button {
+        border-radius: 3rem;
+        padding: 0.5rem 1rem;
+        font-size: 0.96rem;
+        color: white;
+        background-color: #003838;
+        transition: border 0.4s, background-color 0.4s, transform 0.4s;
+      }
+      button:focus,
+      button:hover {
+        border-color: green;
+        background-color: green;
+      }
+      button:active {
+        border-color: #4caf50;
+        background-color: #4caf50;
+        transform: scale(92%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <figure>
+        <img src="../assets/img/crown.webp" />
+        <figcaption>
+          This feature is available only under premium subscription!
+        </figcaption>
+      </figure>
+      <p>Please contact our company representatives</p>
+      <button
+        type="button"
+        onclick="window.location.href = window.location.origin;"
+      >
+        Go Back
+      </button>
+    </main>
+  </body>
+</html>

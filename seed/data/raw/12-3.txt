@@ -1,0 +1,106 @@
+TITLE: WEB TECHNOLOGY II
+
+TOPICS:
+3.2 Server-side & Client-side Scripting
+3.4 JavaScript Integration with HTML
+3.5 JavaScript Fundamentals
+3.8 Functions & Control Structures
+3.9 Object-based Programming
+3.11 Form Validation & jQuery
+3.12 PHP Introduction
+3.15 PHP Syntax
+3.17 PHP Programming Basics
+3.18 PHP Operators
+3.20 Database Connectivity
+3.21 SQL Queries
+3.22 Fetching Data
+3.24 Creating SQL Database
+3.25 Displaying Queries in Tables
+
+[MCQ 1]
+Q1 [3.11]: Which of the given signs is used as a shortcut for jQuery?
+  a. the % sign
+  b. the & sign
+  c. the $ sign
+  d. the @ sign
+
+Q2 [3.11]: Which jQuery method is used to hide selected elements?
+  a. .hide()
+  b. hide(on)
+  c. invisible()
+  d. display(none)
+
+Q3 [3.12]: Which method is used to return today's date and time in PHP?
+  a. Today_date() method
+  b. Today's_date() method
+  c. date() method
+  d. Today_date_and_time() method
+
+Q4 [3.5]: What is the correct syntax for referring to an external JavaScript script?
+  a. <script src="filename.js">
+  b. <Java src="filename.js">
+  c. <Script href="filename.js">
+  d. <js src="filename.js">
+
+Q5 [3.5]: JavaScript is ...
+  a. procedural oriented language
+  b. object oriented programming language
+  c. Firmware
+  d. None of the above
+
+Q6 [3.12]: PHP stands for ...
+  a. Hypertext Pre-processor
+  b. Program hyper process
+  c. Process hyper program
+  d. None of the above
+
+Q7 [3.5]: concat() is ...
+  a. integer method
+  b. string method
+  c. image method
+  d. None of the above
+
+Q8 [3.12]: Which of the following is the correct way of defining a variable in PHP?
+  a. $variable_name = value;
+  b. $variable_name = value,
+  c. $variable_name = value
+  d. $variable_name as value
+
+Q9 [3.5]: Data types in JavaScript are ...
+  a. primary and secondary
+  b. primitive and non-primitive
+  c. local and universal
+  d. None of the above
+
+Q10 [3.5]: ... is an identifier whose value may change during the execution of the program.
+  a. constant
+  b. function
+  c. variable
+  d. None of the above
+
+[SAQ 5]
+Q1 [3.5]: Write a JavaScript code to calculate the factorial of a given number.
+Q2 [3.5]: Write a function to accept two numbers and find the sum of two numbers in JavaScript.
+Q3 [3.20]: Explain the database connection method in PHP.
+Q4 [3.5]: Write a program to find the factorial of any given number using JavaScript.
+Q5 [3.20]: How do you fetch data from a database in PHP and display it in a form? Describe.
+Q6 [3.2]: Write short notes on Internet technology.
+Q7 [3.2]: Differentiate between server-side and client-side scripting.
+Q8 [3.5]: Explain different data types used in JavaScript.
+Q9 [3.11]: What is jQuery? Write down its uses.
+Q10 [3.12]: What is PHP? Explain its uses and advantages.
+Q11 [3.12]: Write down the basic PHP syntax and an example of a program.
+Q12 [3.12]: Explain the different operators used in PHP.
+Q13 [3.12]: Write a PHP program to display the largest among three numbers.
+
+[LAQ 8]
+Q1 [3.20]: What are the uses of script in web page development? How do you connect PHP and MySQL database? Explain with connection class.
+Q2 [3.2]: What is Object-based programming? Explain different JavaScript objects.
+Q3 [3.20]: Write down the server-side script to create a database, connect with it, create a table and insert data in it.
+
+[SN 2.5]
+N1 [3.11]: jQuery
+N2 [3.12]: PHP
+N3 [3.20]: PHP Database Connectivity
+N4 [3.5]: JavaScript Objects
+N5 [3.2]: Client-side vs Server-side Scripting

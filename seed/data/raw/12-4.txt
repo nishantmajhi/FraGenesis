@@ -1,0 +1,180 @@
+TITLE: PROGRAMMING IN C
+
+TOPICS:
+4.1 Review of C Programming (Variables, I/O, Operators, Loops, Arrays, Strings)
+4.2 Functions
+4.3 Structures & Unions
+4.4 Pointers
+4.5 File Handling
+
+[MCQ 1]
+Q1 [4.5]: Which of the following is true about FILE *fpt?
+  a. FILE is a keyword in C for representing files and fpt is a variable of FILE type
+  b. FILE is a buffered Stream
+  c. FILE is a Stream
+  d. FILE is a structure and fpt is a pointer to the structure of FILE type
+
+Q2 [4.1]: What is the output of the statement (a++) in C programming?
+  a. The current value of a
+  b. The value of a incremented by 1
+  c. Error
+  d. Garbage
+
+Q3 [4.5]: Which statement is true for opening a binary file 'Record.dat' for reading and writing?
+  a. file = fopen("Record.dat", "rb+")
+  b. file = fopen("Record.dat", "ab")
+  c. file = fopen("Record.dat", "wb")
+  d. file = fopen("Record.dat", "r")
+
+Q4 [4.4]: What is the output of the following C program? void main(){ int b=25; int *p; p=&b; printf("%d %d", &b, p);}
+  a. 25 25
+  b. 1234 1234
+  c. 25 1234
+  d. 1234 25
+
+Q5 [4.1]: ... is a reserved word that has standard and predefined meanings in C.
+  a. variable
+  b. identifier
+  c. keyword
+  d. None of the above
+
+Q6 [4.1]: ... is a quantity that doesn't change during program execution.
+  a. variable
+  b. constant
+  c. data type
+  d. None of the above
+
+Q7 [4.1]: ... is a symbolic name used to store different types of data in memory and may change during program execution.
+  a. variable
+  b. constant
+  c. identifier
+  d. None of the above
+
+Q8 [4.1]: ... is a symbol that instructs C to perform some operation or action on one or more operands.
+  a. operand
+  b. operation
+  c. operator
+  d. None of the above
+
+Q9 [4.1]: ... is something that an operator acts on.
+  a. operand
+  b. operation
+  c. operator
+  d. None of the above
+
+[SAQ 5]
+Q1 [4.1]: Define the terms 'constant', 'identifier' and 'keyword' in C program.
+Q2 [4.1]: What is variable? List the major data types used in C program.
+Q3 [4.2]: What is function in C Program? Explain.
+Q4 [4.1]: List the different types of operators in C. Describe the logical operator with example.
+Q5 [4.3]: Define structure in C with example.
+Q6 [4.5]: Describe the different modes of file handling concept in C.
+Q7 [4.5]: Explain the file handling concept in C.
+Q8 [4.3]: Differentiate between array and structure with example.
+Q9 [4.3]: Explain array and structure with examples.
+Q10 [4.4]: Write the advantages of pointer. Write a C program to enter the radius of a circle and find the area using a user defined function.
+Q11 [4.3]: Define structure. Write a C program using structure to input staff id, name and salary of 50 staffs. Display staff id, name and salary of those whose salary ranges from 25 thousand to 40 thousand.
+Q12 [4.3]: Write a C program to enter name, grade, age and address of 10 students in a structure and display the information.
+Q13 [4.5]: Describe file handling concept in C. Write a C program to enter names and addresses of students and store them in a data file 'student.dat'.
+Q14 [4.2]: Define function. Write a program to generate the factorial of a given number using a recursive function in C.
+Q15 [4.5]: Explain three modes of file opening in C. Write a program to read name and roll from a file named 'exam.dat' and display them.
+Q16 [4.3]: What is structure? Write a program to input roll, name and age of 5 students and display them properly using structure.
+Q17 [4.5]: Write a C program to enter ID, employee_name, and post of the employee and store them in a data file named 'emp.txt'. Display each record in an appropriate format.
+Q18 [4.1]: Explain any three different types of operators in C with example.
+Q19 [4.1]: Write a program to print Fibonacci series using loop.
+Q20 [4.4]: What is pointer? Write the advantages of pointer.
+Q21 [4.1]: What is string function? Write a program to concatenate two strings.
+Q22 [4.3]: Write a program to input emp_no, name and salary of 100 employees using structure. Display the name and salary of each employee.
+
+[LAQ 8]
+Q1 [4.4]: Write the advantage of pointer. Write a C program to enter the radius of a football and find the area using a user defined function.
+Q2 [4.3]: Define the structure. Write a C program using structure to input staff id, name and salary of 50 staffs. Display the id, name and salary of those whose salary ranges from 25 thousand to 40 thousand.
+Q3 [4.3]: Write a C program to enter name, grade, age and address of 10 students in a structure and display the information.
+Q4 [4.5]: Describe file handling concept in C. Write a C program to enter names and addresses of students and store them in a data file 'student.dat'.
+Q5 [4.2]: Define function. Write a program to generate the factorial of a given number using a recursive function in C.
+Q6 [4.5]: Explain the three modes of file opening in C. Write a program to read name and roll from a file named 'exam.dat' and display them.
+Q7 [4.3]: What is structure? Write a program to input roll, name and age of 5 students and display them properly using structure.
+Q8 [4.5]: Write a C program to enter ID, employee_name, and post of the employee and store them in a data file named 'emp.txt'. Display each record in an appropriate format.
+Q9 [4.1]: Explain any three different types of operators in C with example.
+Q10 [4.2]: What is function? Write the advantages of function. Differentiate between library and user-defined function with example.
+Q11 [4.3]: Write a program to enter name, post and age of 10 employees using structure and display in proper format.
+Q12 [4.1]: Write a program to input 10 integer numbers into an array and display the sum of the numbers.
+Q13 [4.1]: What is function? Explain any four string functions with example.
+Q14 [4.3]: Write a program to input name, roll, and reg. no. of 10 students using structure and display in proper format.
+Q15 [4.2]: What is function? Write a program to read the principle, time and rate and find the simple interest using function.
+Q16 [4.3]: Write a program to store 50 records of students using fields std_no, name and mark. Display the name of student and mark.
+Q17 [4.2]: What are the importance of functions in C? Write a program to find out if a given number is odd or even using function.
+Q18 [4.1]: What are the string functions in C? Write a program to print the given text in reverse order.
+Q19 [4.3]: Describe the structure in C. Write a program to enter the 5 subject marks and calculate sum and print using structure.
+Q20 [4.2]: Describe the function in C. Write a program to find the sum of n integer numbers using function.
+Q21 [4.3]: Write a program to input the 5 employee's name and salary using structure and display the records in proper format.
+Q22 [4.2]: What are the methods of function declaration and call in C? Write a program to find out if a given number is odd or even using function.
+Q23 [4.3]: What is structure in C? Write a program to enter 20 employee's name, age and salary using structure and print them.
+Q24 [4.3]: Differentiate between array and structure.
+Q25 [4.1]: Define control structure. Write a program to find the sum, difference and greater of two integer numbers using switch case statement.
+Q26 [4.2]: Write a program to multiply two integer numbers using functions.
+Q27 [4.4]: What is pointer? Define address of (&) and indirection (*) operator.
+Q28 [4.5]: Write a program to enter name, address and salary of an employee and store it in a file 'staff.dat'.
+Q29 [4.2]: Describe the function in C. Write a program to find the sum of n integer numbers using function.
+Q30 [4.3]: Differentiate between structure and union. Write a program to input employee name and post of five employees and display the records in proper format using structure.
+Q31 [4.2]: Write a program to add two numbers using function.
+Q32 [4.4]: What is pointer? Write its advantages.
+Q33 [4.5]: Write a program to enter name and salary of an employee and write it in a file 'employee.dat'.
+Q34 [4.2]: What is function? List out the advantages of functions.
+Q35 [4.5]: Describe fscanf and fprintf function. Write a program which asks name, age and address of a student and writes it in a file 'student.dat'.
+Q36 [4.3]: Differentiate between Structure and Union with examples.
+Q37 [4.5]: Write a program to display name, age and address reading from a file 'record.dat'.
+Q38 [4.2]: What is function? Write a function to add two integer numbers.
+Q39 [4.5]: Write a program which reads name, department and age from a file named 'employee.dat' and displays them on the monitor.
+Q40 [4.2]: What is function? Write a program to read name, age and address reading from a file named 'record.dat'.
+Q41 [4.2]: What is recursion? Write a program to calculate the factorial of a given number using recursive function.
+Q42 [4.5]: Describe five file handling functions with examples.
+Q43 [4.4]: What is pointer? Describe the benefits of pointer with examples.
+Q44 [4.5]: Write a program which reads name, number and age from a file named 'student.dat' and displays them.
+Q45 [4.2]: Write a program which asks the user to input n terms of numbers and find the greatest and smallest number among them.
+Q46 [4.3]: Differentiate between array and structure with suitable examples.
+Q47 [4.5]: Write a program which asks name, age and roll number of students and writes them in a file 'xyz.dat'.
+Q48 [4.1]: Describe five string handling functions with examples.
+Q49 [4.3]: Describe array, structure and pointer with examples.
+Q50 [4.5]: Describe fprintf and fscanf file handling functions. Write a program which writes 'Welcome to Nepal' in a file.
+Q51 [4.3]: Differentiate between structure and union with syntax.
+Q52 [4.5]: Write a program to enter name, roll-number and marks of 10 students and store them in a file.
+Q53 [4.5]: Write a program to delete and rename a data file using remove and rename commands.
+Q54 [4.2]: Write a C program to calculate the factorial of a given number using functions.
+Q55 [4.3]: Differentiate between structure and pointer with examples.
+Q56 [4.5]: Write a C program that will read successive records from a data file and display each record on the screen in an appropriate format.
+Q57 [4.3]: Write a program that reads different names and addresses into the computer and rearranges the names into alphabetical order using structure variables.
+Q58 [4.5]: Write a program using C that reads successive records from a data file and displays each record on the screen in an appropriate format.
+Q59 [4.4]: What is pointer? Explain the meaning of each of the following declarations: (i) int *p (ii) int **p (iii) int (*p)[10] (iv) int *p[void] (v) int P(char *a)
+Q60 [4.2]: What is a recursive function? Write a program to calculate the factorial of an integer using recursion.
+Q61 [4.4]: Define pointer. Discuss the relation between pointer and array with suitable examples.
+Q62 [4.5]: Write a program to open a new file and read roll-no., name, address and phone number of students until the user says 'no'. Write the data to the file then display the content.
+Q63 [4.2]: Write a recursive function to calculate the factorial of any integer number.
+Q64 [4.1]: How do you declare an array? Write a program to arrange the elements of an array in ascending order.
+Q65 [4.2]: What is the difference between library function and user-defined function? Write a program using user-defined function to calculate y raised to power x.
+Q66 [4.3]: Differentiate between array and structure with suitable example.
+Q67 [4.5]: Write a program to delete and rename the data file using remove and rename command.
+Q68 [4.5]: Write a program to show data writing and reading operation to/from a data file.
+Q69 [4.4]: Explain the importance of pointer in C Programming. Illustrate pointer operations with examples. Show the relationship between array and pointers.
+Q70 [4.1]: Write a program to store name and mark of 20 students. Sort the data according to mark in descending order and display them.
+Q71 [4.2]: Write a program to find the sum of n integer numbers using function.
+Q72 [4.5]: Write a program to store std-no, name and mark of n students in a data file. Display the records in appropriate format reading from the file.
+Q73 [4.3]: Differentiate array and structure with examples.
+Q74 [4.3]: Write differences between structure and union with syntax.
+Q75 [4.5]: Write a program to enter name, roll-number and marks of 10 students and store them in a file.
+Q76 [4.5]: Write a program for reading a data file. Write a program to delete and rename data file using remove and rename command.
+Q77 [4.2]: Write a C program to calculate the factorial of a given number using functions.
+Q78 [4.3]: Differentiate between structure and pointer with examples. Write a C program to design a menu based system with features: (i) Appending record (ii) Reading record (iii) Delete record (iv) Quit
+Q79 [4.5]: Write a C program that will read successive records from a new data file and display each record on the screen in an appropriate format.
+Q80 [4.3]: Write a program that reads different names and addresses into the computer and rearranges them into alphabetical order using structure variables.
+Q81 [4.1]: What do you mean by 'local', 'global' and 'static' variables? Explain with examples.
+Q82 [4.1]: What is an array? Write down the similarities and differences of array with pointer.
+Q83 [4.1]: Write a program to sort an array of n elements in descending order.
+Q84 [4.5]: Write a program to enter name, roll-no and marks of 10 students and store them in a file. Read and display the same from the file.
+
+[SN 2.5]
+N1 [4.4]: Pointer
+N2 [4.3]: Structure
+N3 [4.5]: File Handling
+N4 [4.2]: Recursive Function
+N5 [4.1]: String Functions

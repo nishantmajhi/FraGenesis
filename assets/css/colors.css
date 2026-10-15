@@ -1,0 +1,36 @@
+:root {
+  accent-color: green;
+  --primary-color: #4caf50;
+  --dark-green: #003838;
+}
+
+body {
+  color: #181818;
+  background-color: white;
+}
+body * {
+  outline: transparent;
+}
+
+header,
+header button,
+header li {
+  color: white;
+  background-color: var(--primary-color);
+  transition: color 0.4s;
+}
+
+header button:focus,
+header button:hover,
+header li:focus,
+header li:hover,
+header a:focus,
+header a:hover {
+  color: var(--dark-green);
+}
+
+header button:active,
+header li:active,
+header a:active {
+  color: white;
+}

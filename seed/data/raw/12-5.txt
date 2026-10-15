@@ -1,0 +1,87 @@
+TITLE: OBJECT-ORIENTED PROGRAMMING (OOP)
+
+TOPICS:
+5.1 Programming Paradigms (OOP vs Procedural)
+5.2 OOP Features (Class, Object, Inheritance, Polymorphism, Encapsulation)
+5.3 OOP Advantages
+5.4 OOP Applications
+
+[MCQ 1]
+Q1 [5.2]: Which OOP concept is used for wrapping (hiding) data into a single unit?
+  a. Abstraction
+  b. Polymorphism
+  c. Encapsulation
+  d. Inheritance
+
+Q2 [5.2]: Which feature of OOP is used for wrapping (hiding) of data into a single unit?
+  a. Abstraction
+  b. Polymorphism
+  c. Encapsulation
+  d. Inheritance
+
+Q3 [5.2]: Which OOP feature facilitates code reusability?
+  a. Polymorphism
+  b. Abstraction
+  c. Encapsulation
+  d. Inheritance
+
+Q4 [5.1]: OOP stands for ...
+  a. Operator overloading programming
+  b. Object-Oriented Programming
+  c. Object overloading programming
+  d. None of the above
+
+Q5 [5.2]: ... is a concept or thing with defined boundaries that are relevant to the problem we are dealing with.
+  a. object
+  b. class
+  c. variable
+  d. None of the above
+
+Q6 [5.2]: ... is a collection or group of similar objects that have the same properties, common behavior, and relationships.
+  a. object
+  b. class
+  c. constant
+  d. None of the above
+
+Q7 [5.2]: ... is a property that allows the reuse of an existing class to build a new class.
+  a. class
+  b. operation
+  c. inheritance
+  d. Object
+
+Q8 [5.2]: ... is the process that allows selective hiding of data and functions in a class.
+  a. class
+  b. inheritance
+  c. encapsulation
+  d. Polymorphism
+
+[SAQ 5]
+Q1 [5.1]: How is event-driven program (OOP) different from procedural-oriented programming? Explain.
+Q2 [5.1]: Write the advantages of OOP.
+Q3 [5.2]: What is inheritance? Explain with an example.
+Q4 [5.1]: Compare OOP and procedural programming language.
+Q5 [5.1]: Distinguish between OOP and procedural language.
+Q6 [5.1]: What are the importance of OOP?
+Q7 [5.1]: What is OOP? Write the application of OOP.
+Q8 [5.2]: What is OOP? List the characteristics of OOP.
+Q9 [5.2]: Explain the terms class and object.
+Q10 [5.2]: Explain the terms polymorphism and inheritance.
+Q11 [5.1]: What is OOP? List the advantages of OOP.
+Q12 [5.1]: What is Procedural oriented programming? Explain.
+Q13 [5.2]: Explain polymorphism and inheritance with examples.
+Q14 [5.1]: Write the advantages and disadvantages of OOP.
+Q15 [5.1]: What is object oriented programming? How is it different from procedure oriented programming?
+Q16 [5.2]: Polymorphism and inheritance are important concepts of OOP. Explain.
+Q17 [5.1]: Explain the characteristics of object oriented programming.
+Q18 [5.2]: Polymorphism and Inheritance are important concepts of OOP. What do you understand by these two terms?
+Q19 [5.1]: What is a logical operator? Give two examples of their use. Compared to procedure-oriented programming, what advantages does event-driven programming offer?
+
+[LAQ 8]
+Q1 [5.1]: Explain the importance of OOP.
+Q2 [5.2]: Explain the terms class and objects.
+
+[SN 2.5]
+N1 [5.2]: Inheritance
+N2 [5.2]: Polymorphism
+N3 [5.2]: Encapsulation
+N4 [5.2]: Class and Object
